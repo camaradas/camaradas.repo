@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.festakids"
-       name="[B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR][/B]"
+       name="[B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR][/B]" 
        version="0.0.12"
        provider-name="Team Festa y Cristal">
   <requires>
@@ -16,7 +15,7 @@
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" />
 	<import addon="script.module.resolveurl" />
-    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>  
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" optional="true"/>
 	<import addon="script.module.simplejson" />
@@ -25,8 +24,8 @@
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio</provides>
-  </extension>
-
+  </extension> 
+  
   <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
@@ -43,18 +42,3 @@
 	  </assets>
   </extension>
 </addon>
-
-<addon id="repository.camaradas.repo" name="[COLOR orangered]camaradas.repo[/COLOR]" version="2.0" provider-name="Team Camaradas">
-    <extension point="xbmc.addon.repository" name="camaradas.repo">
-        <info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio camaradas.repo</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
